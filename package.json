@@ -1,9 +1,9 @@
 {
-  "name": "cordova-plugin-idfa",
+  "name": "lycwed-cordova-plugin-idfa2",
   "version": "1.0.0",
   "description": "Cordova plugin to get Advertising ID (IDFA or AAID)",
   "cordova": {
-    "id": "cordova-plugin-idfa",
+    "id": "lycwed-cordova-plugin-idfa2",
     "platforms": [
       "ios",
       "android"
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chemerisuk/cordova-plugin-idfa.git"
+    "url": "git+https://github.com/lycwed/lycwed-cordova-plugin-idfa2.git"
   },
   "author": "Maksim Chemerisuk <chemerisuk@gmail.com> (https://github.com/chemerisuk)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chemerisuk/cordova-plugin-idfa/issues"
+    "url": "https://github.com/lycwed/lycwed-cordova-plugin-idfa2/issues"
   },
-  "homepage": "https://github.com/chemerisuk/cordova-plugin-idfa#readme",
+  "homepage": "https://github.com/lycwed/lycwed-cordova-plugin-idfa2#readme",
   "keywords": [
     "cordova",
     "idfa",

@@ -1,22 +1,21 @@
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-xmlns:android="http://schemas.android.com/apk/res/android"
-           id="cordova-plugin-idfa"
-      version="1.0.0">
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" 
+    xmlns:android="http://schemas.android.com/apk/res/android" id="lycwed-cordova-plugin-idfa2" version="1.0.0">
 
-    <name>cordova-plugin-idfa</name>
+    <name>lycwed-cordova-plugin-idfa2</name>
     <description>Cordova plugin to get Advertising ID (IDFA or AAID)</description>
     <license>MIT</license>
     <keywords>cordova</keywords>
-    <repo>https://github.com/chemerisuk/cordova-plugin-idfa</repo>
-    <issue>https://github.com/chemerisuk/cordova-plugin-idfa/issues</issue>
+    <repo>https://github.com/lycwed/lycwed-cordova-plugin-idfa2</repo>
+    <issue>https://github.com/lycwed/lycwed-cordova-plugin-idfa2/issues</issue>
 
     <js-module src="www/Idfa.js" name="Idfa">
-        <merges target="cordova.plugins.idfa" />
+        <merges target="Idfa" />
+        <merges target="cordova.plugins.Idfa" />
     </js-module>
 
     <engines>
-        <engine name="cordova" version=">=7.1.0"/>
-        <engine name="cordova-android" version=">=7.0.0"/>
+        <engine name="cordova" version=">=7.0.0"/>
+        <engine name="cordova-android" version=">=6.4.0"/>
         <engine name="cordova-ios" version=">=4.3.0"/>
     </engines>
 
@@ -51,8 +50,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 
         <framework src="com.google.android.gms:play-services-ads:$GOOGLE_SERVICES_VERSION" />
 
-        <source-file src="src/android/IdfaPlugin.java"
-            target-dir="src/by/chemerisuk/cordova/advertising/" />
+        <source-file src="src/android/IdfaPlugin.java" target-dir="src/by/chemerisuk/cordova/advertising/" />
     </platform>
 
 </plugin>
