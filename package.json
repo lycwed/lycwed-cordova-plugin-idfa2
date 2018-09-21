@@ -1,6 +1,6 @@
 {
   "name": "lycwed-cordova-plugin-idfa2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cordova plugin to get Advertising ID (IDFA or AAID)",
   "cordova": {
     "id": "lycwed-cordova-plugin-idfa2",

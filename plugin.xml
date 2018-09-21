@@ -1,5 +1,5 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" 
-    xmlns:android="http://schemas.android.com/apk/res/android" id="lycwed-cordova-plugin-idfa2" version="1.0.0">
+    xmlns:android="http://schemas.android.com/apk/res/android" id="lycwed-cordova-plugin-idfa2" version="1.0.1">
 
     <name>lycwed-cordova-plugin-idfa2</name>
     <description>Cordova plugin to get Advertising ID (IDFA or AAID)</description>
@@ -15,7 +15,7 @@
 
     <engines>
         <engine name="cordova" version=">=7.0.0"/>
-        <engine name="cordova-android" version=">=6.4.0"/>
+        <engine name="cordova-android" version=">=6.3.0"/>
         <engine name="cordova-ios" version=">=4.3.0"/>
     </engines>
 
